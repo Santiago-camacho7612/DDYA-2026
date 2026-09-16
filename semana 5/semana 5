@@ -1,0 +1,15 @@
+Descripción general
+
+Este proyecto consiste en el desarrollo de un prototipo en Python orientado a facilitar la gestión de una tienda. El programa permite controlar el turno de los clientes, almacenar un registro de las atenciones realizadas y gestionar los productos disponibles en el establecimiento.
+
+Para organizar la información y realizar estas operaciones de manera eficiente, el sistema utiliza tres estructuras de datos lineales: colas, pilas y listas doblemente enlazadas.
+
+Situación planteada
+
+Una tienda necesita mejorar la forma en que administra tanto la atención de sus clientes como su inventario de productos. Para solucionar esta necesidad, se propone un sistema capaz de realizar las siguientes funciones:
+
+Control de turnos: Los clientes que llegan a la tienda se agregan a una fila de espera y son atendidos respetando su orden de llegada. El primero en ingresar será también el primero en recibir atención.
+
+Registro de atenciones: Cada vez que un cliente es atendido, la operación queda almacenada dentro de un historial. Si se presenta algún error, el sistema permite cancelar o revertir la atención realizada más recientemente.
+
+Administración del catálogo: Los productos de la tienda se almacenan en una estructura que permite recorrer el catálogo tanto hacia adelante como hacia atrás. Además, el usuario puede localizar productos específicos y retirar elementos del catálogo cuando sea necesario.
